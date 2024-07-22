@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "password": "password123",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": "2",
+      "username": "jane_smith",
+      "password": "securePass!2024",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": "3",
+      "username": "bob_jones",
+      "password": "mySecretPass",
+      "email": "bob.jones@example.com"
+    },
+    {
+      "id": "4",
+      "username": "alice_wonder",
+      "password": "Alice@2024",
+      "email": "alice.wonder@example.com"
+    }
+  ],
+  "blogPosts": [
+    {
+      "id": "101",
+      "title": "Introduction to React",
+      "summary": "A beginner's guide to React.js.",
+      "content": "React.js is a popular JavaScript library for building user interfaces. This post covers the basics of React, including components, props, and state.",
+      "userId": "1",
+      "comments": [
+        {
+          "id": "1",
+          "userId": "2",
+          "comment": "Great introduction! Helped me understand React better."
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "title": "Understanding JavaScript Closures",
+      "summary": "A deep dive into JavaScript closures.",
+      "content": "Closures are a fundamental concept in JavaScript. This post explains how closures work and provides examples of their usage.",
+      "userId": "2",
+      "comments": [
+        {
+          "id": "2",
+          "userId": "3",
+          "comment": "This was very insightful. Thanks for the clear explanation!"
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "title": "CSS Grid Layout",
+      "summary": "An overview of CSS Grid and how to use it.",
+      "content": "CSS Grid Layout is a powerful layout system in CSS. This post provides an overview of CSS Grid and practical examples of how to use it.",
+      "userId": "3"
+    },
+    {
+      "id": "104",
+      "title": "The Art of Debugging",
+      "summary": "Tips and tricks for effective debugging.",
+      "content": "Debugging is an essential skill for developers. This post shares various strategies and tools for debugging code effectively.",
+      "userId": "4"
+    }
+  ]
+}
